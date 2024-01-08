@@ -427,7 +427,7 @@ class Tetris extends JFrame {
         panel.setBackground(new Color(0XF5EBE0));
 
         statusbar = new JLabel("Score: 0");
-        statusbar.setFont(new Font("MV Boli", Font.BOLD, 30));
+        statusbar.setFont(new Font("echomaverick", Font.BOLD, 30));
         panel.add(statusbar, BorderLayout.NORTH);
 
         Board board = new Board(this);
